@@ -1,0 +1,62 @@
+﻿using System;
+
+namespace _14._02
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            #region task1
+            //    int num1 = Convert.ToInt32(Console.ReadLine());
+            //    if (num1 % 7 == 0)
+            //    {
+            //        Console.WriteLine("7 ye bolunur");
+            //    }
+            //    else
+            //    {
+            //        ClosestDivide();
+            //    }
+            //}
+            //public static int ClosestDivide()
+            //{
+            //    int num1 = Convert.ToInt32(Console.ReadLine());
+            //    int d1 = num1 - (num1 % 7);
+            //    int d2 = (num1 + 7) - (num1 % 7);
+            //    if (d1 - num1 > d2 - num1)
+            //    {
+            //        return d2;
+            //    }
+            //    else
+            //    {
+            //        return d1;
+            //    }
+
+            #endregion
+
+
+            #region task2
+            Console.WriteLine(Sum(12, + , 4));
+           
+            
+        }
+
+
+
+
+
+        public static void Sum()
+        {
+            int num1 = Convert.ToInt32(Console.ReadLine());
+            int num2 = Convert.ToInt32(Console.ReadLine());
+            int result = num1 + num2;
+            Console.WriteLine(result);
+            result = num1 - num2;
+            Console.WriteLine(result);
+            result = num1 * num2;
+            Console.WriteLine(result);
+            result = num1 / num2;
+            Console.WriteLine(result);
+        }
+        #endregion
+    }
+}
